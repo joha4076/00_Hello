@@ -1,6 +1,17 @@
-﻿namespace _00_Hello
+﻿using System;
+
+namespace _00_Hello
 {
-    internal class Functions
+    public class Functions
     {
+        public static string Hello()
+        {
+            return "Hello";
+        }
+
+        internal static object Hello(string v)
+        {
+            return "Hello, " + v;
+        }
     }
 }
